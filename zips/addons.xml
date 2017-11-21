@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.blamo" version="2.3.8" name="Death Streams" provider-name="MR.Blamo">
+<addon id="plugin.video.blamo" version="2.3.8" name="[COLOR gold]Death Streams[/COLOR]" provider-name="MR.Blamo">
     <requires>        
 		<import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.pyxbmct" version="1.1.4"/>
@@ -31,7 +31,7 @@
 	</extension>
 </addon>
 
-<addon id="script.deaths.themepak" version="0.0.14" name="DS Themepak" provider-name="MR Blamo">
+<addon id="script.deaths.themepak" version="0.0.14" name="[COLOR gold]DS Themepak[/COLOR]" provider-name="MR Blamo">
     <requires>
         <import addon="kodi.resource" version="1.0.0"/>
     </requires>
@@ -43,7 +43,7 @@
     </extension>
 </addon>
 
-<addon id="context.ds.tools" version="1.1.0" name="DS Context Tools" provider-name="Mr.Blamo">
+<addon id="context.ds.tools" version="1.1.0" name="[COLOR gold]DS Context Tools[/COLOR]" provider-name="Mr.Blamo">
     <requires>
         <import addon="xbmc.python" version="2.2.0"/>
         <import addon="plugin.video.blamo"/>
@@ -62,7 +62,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.motorreplays" name="[COLORorange]Motor Replays[/COLOR]" version="2.7" provider-name="@Aleighty80">
+<addon id="plugin.video.motorreplays" name="[COLOR gold]Motor Replays[/COLOR]" version="2.7" provider-name="@Aleighty80">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
@@ -82,7 +82,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ufc-finest" name="Planet MMA" version="3.5" provider-name="DK">
+<addon id="plugin.video.ufc-finest" name="[COLOR gold]Planet MMA[/COLOR]" version="3.5" provider-name="DK">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
@@ -103,18 +103,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.deathstreams" name="Mr Blamos Common Libraries" version="1.0.1" provider-name="Mr Blamo">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Credit to TKnorris</summary>
-	</extension>
-</addon>
-
-<addon id="plugin.video.suprabox" name="Supra Box" version="1.03" provider-name="SUPRA">
+<addon id="plugin.video.suprabox" name="[COLOR gold]Supra Box[/COLOR]" version="1.03" provider-name="SUPRA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
@@ -145,7 +134,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.tempusreborn" name="Tempus Reborn" version="1.0" provider-name="ad, midraal">
+<addon id="plugin.video.tempusreborn" name="[COLOR gold]Tempus Reborn[/COLOR]" version="1.0" provider-name="ad, midraal">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -168,6 +157,17 @@
         <website>www.noobsandnerds.com</website>
         <video_guide>xtOqLY5PJDY</video_guide>
     </extension>
+</addon>
+
+<addon id="script.module.deathstreams" name="Mr Blamos Common Libraries" version="1.0.1" provider-name="Mr Blamo">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Credit to TKnorris</summary>
+	</extension>
 </addon>
 
 <addon id="script.module.livestreamer"
