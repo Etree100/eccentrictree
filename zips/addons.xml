@@ -335,7 +335,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" name="f4mTester" version="2.7.2" provider-name="Shani">
+<addon id="plugin.video.f4mTester" name="[COLOR gold]f4mTester[/COLOR]" version="2.7.2" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.video.F4mProxy" version="2.7.1"/>
