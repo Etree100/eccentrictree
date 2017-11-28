@@ -162,7 +162,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.tempusreborn" name="[COLORgold]Tempus Reborn[/COLOR]" version="1.6" provider-name="ATrain, Jen">
+<addon id="plugin.video.tempusreborn" name="[COLORgold]Tempus Reborn[/COLOR]" version="1.7" provider-name="ATrain, Jen">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -185,16 +185,6 @@
         <website>www.noobsandnerds.com</website>
         <video_guide>xtOqLY5PJDY</video_guide>
     </extension>
-</addon>
-<addon id="script.module.deathstreams" name="Mr Blamos Common Libraries" version="1.0.1" provider-name="Mr Blamo">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Credit to TKnorris</summary>
-	</extension>
 </addon>
 
 <addon id="script.module.livestreamer"
