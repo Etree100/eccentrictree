@@ -42,6 +42,17 @@
         <platform>all</platform>
     </extension>
 </addon>
+
+<addon id="script.module.deathstreams" name="Mr Blamos Common Libraries" version="1.0.1" provider-name="Mr Blamo">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Credit to TKnorris</summary>
+	</extension>
+</addon>
 	
 <addon id="context.ds.tools" version="1.1.0" name="[COLOR gold]DS Context Tools[/COLOR]" provider-name="Mr.Blamo">
     <requires>
