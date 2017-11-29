@@ -198,7 +198,7 @@
     </extension>
 </addon>
 	
-<addon id="plugin.video.tweedledum" name="[COLORcyan]TWE[/COLOR][COLORgrey]ED[/COLOR][COLORcyan]LED[/COLOR][COLORgrey]UM[/COLOR]" version="1.0" provider-name="mrApril, Jen
+<addon id="plugin.video.tweedledum" name="[COLORgold]Tweedledum[/COLOR]" version="1.0" provider-name="mrApril, Jen
     ">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
