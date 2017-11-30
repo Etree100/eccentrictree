@@ -102,7 +102,7 @@
     </extension>
 </addon>
 	
-<addon id="plugin.video.kidscornerv2" name="[COLOR gold]Kids Corner V2[/COLOR]" version="2.0" provider-name="56426">
+<addon id="plugin.video.kidscornerv2" name="[COLOR gold]Kids Corner V2[/COLOR]" version="2.1" provider-name="56426">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
