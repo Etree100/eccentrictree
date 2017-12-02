@@ -305,6 +305,7 @@
         <video_guide>xtOqLY5PJDY</video_guide>
     </extension>
 </addon>
+
 <addon id="plugin.video.wwe-on-demand" name="Wrestling On Demand" version="5.05" provider-name="The Boogeyman">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -452,6 +453,13 @@
     <extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>executable</provides>
   </extension>
+  
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Proxy for f4m</summary>
+    <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+  </extension>
+</addon>
 
 <addon id="script.module.schism.common" name="Elysium Common Libraries" version="2017.06.08" provider-name="Elysium">
 	<requires>
@@ -467,13 +475,6 @@
 		<description lang="en">Collection of modules used by Elysium</description>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 	</extension>
-</addon>
-    
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Proxy for f4m</summary>
-    <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
-  </extension>
 </addon>
 
 <addon id="plugin.video.f4mTester" name="[COLOR gold]f4mTester[/COLOR]" version="2.7.2" provider-name="Shani">
