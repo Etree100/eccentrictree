@@ -30,15 +30,8 @@
     </extension>
 </addon>
 	
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 <addon id="plugin.video.goose" name="[COLOR gold]G[COLOR snow]oose[/COLOR]" version="1.2" provider-name="0rgis, Jen">
-=======
-<addon id="plugin.video.goose" name="[COLOR gold]Goose[/COLOR]" version="1.2" provider-name="0rgis">
->>>>>>> origin/master
-=======
-<addon id="plugin.video.goose" name="[COLOR gold]Goose[/COLOR]" version="1.1" provider-name="0rgis">
->>>>>>> origin/master
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
