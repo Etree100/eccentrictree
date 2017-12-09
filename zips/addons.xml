@@ -30,7 +30,6 @@
     </extension>
 </addon>
 	
-
 <addon id="plugin.video.goose" name="[COLOR gold]G[COLOR snow]oose[/COLOR]" version="1.3" provider-name="0rgis, Jen">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
