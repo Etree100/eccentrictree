@@ -207,6 +207,7 @@
     <platform>all</platform>
   </extension>
 </addon>
+	
 <addon id="plugin.video.tempusreborn" name="[COLORgold]Tempus Reborn[/COLOR]" version="2.1" provider-name="ATrain, Jen">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
