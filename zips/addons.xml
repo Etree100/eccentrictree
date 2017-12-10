@@ -278,7 +278,7 @@
   </extension>
 </addon>
 	
-<addon id="plugin.video.xtremeodyssey" name="Xtreme Odyssey" version="0.0.3" provider-name="loose cannon, Jen">
+<addon id="plugin.video.xtremeodyssey" name="[COLORgold]Xtreme Odyssey[/COLOR]" version="0.0.3" provider-name="loose cannon, Jen">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
