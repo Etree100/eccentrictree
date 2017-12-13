@@ -16,9 +16,9 @@
     <disclaimer lang="en"></disclaimer>
     <platform>all</platform>
   </extension>
-</addon>	
+</addon>
 	
-<addon id="plugin.video.amore" name="[COLORgold]Amore[/COLOR]" version="1.3" provider-name="MrandMrsSkeletor, Jen">
+<addon id="plugin.video.f50ci3ty" name="[COLORgold]F_50ci3ty[/COLOR}" version="1.1" provider-name="Elliot Alderson">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -31,21 +31,18 @@
         <import addon="script.module.urlresolver" version="1.2.0" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
+        <provides>audio video</provides>
     </extension>
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
-      <summary lang="en">Romantic Movies and TV</summary>
-      <summary lang="he">הרחבת וידאו Jen</summary>
-      <description lang="en">Lovers Addon</description>
-      <description lang="he">האחות הקטנה של בוב</description>
+      <summary lang="en">Mr Robots little sister :)</summary>
+      <description lang="en">Fsociety does not provide any of the content found in this addon.. All we do is help organise the links in a way that is simple for you guys to use..  </description>
       <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-      <disclaimer lang="he">מחבר ההרחבה זה אינו מארח את התוכן שיתכן ויימצא ואין לו זיקה לאף אחד מספקי התוכן. הרחבה רק מחפשת תוכן שקיים באתרי אינטרנט. השימוש בהרחבה הוא על אחריותך בלבד!</disclaimer>
       <platform>all</platform>
-        <website>www.noobsandnerds.com</website>
-        <video_guide>xtOqLY5PJDY</video_guide>
+        <website></website>
+        <video_guide></video_guide>
     </extension>
-</addon>
+</addon>	
 	
 <addon id="plugin.video.fishermanscove" name="[COLOR gold]Fishermans Friend[/COLOR]" version="5.0.3" provider-name="Just Another Bank Tramp">
     <requires>
@@ -94,35 +91,6 @@
       <description lang="he"></description>
       <disclaimer lang="en"></disclaimer>
       <disclaimer lang="he"></disclaimer>
-      <platform>all</platform>
-        <website>www.noobsandnerds.com</website>
-        <video_guide>xtOqLY5PJDY</video_guide>
-    </extension>
-</addon>
-	
-<addon id="plugin.video.frightnight" name="[B][COLORgold]Fright Night[/COLOR][/B]" version="1.3" provider-name="ATrain, Jen">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.nanscrapers" version="0.5.5" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
-        <import addon="script.module.beautifulsoup" version="3.2.1" />
-        <import addon="script.module.requests" version="2.9.1" />
-        <import addon="script.module.addon.common" version="2.0.0" />
-        <import addon="script.module.xmltodict" version="0.9.0" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.urlresolver" version="1.2.0" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
-    <extension point="xbmc.addon.metadata">
-      <summary lang="en">Scary Movies. Inspired by FOTD.</summary>
-      <summary lang="he">הרחבת וידאו Jen</summary>
-      <description lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</description>
-      <description lang="he">האחות הקטנה של בוב</description>
-      <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-      <disclaimer lang="he">מחבר ההרחבה זה אינו מארח את התוכן שיתכן ויימצא ואין לו זיקה לאף אחד מספקי התוכן. הרחבה רק מחפשת תוכן שקיים באתרי אינטרנט. השימוש בהרחבה הוא על אחריותך בלבד!</disclaimer>
       <platform>all</platform>
         <website>www.noobsandnerds.com</website>
         <video_guide>xtOqLY5PJDY</video_guide>
@@ -234,57 +202,6 @@
   </extension>
 </addon>
 	
-<addon id="plugin.video.tempusreborn" name="[COLORgold]Tempus Reborn[/COLOR]" version="2.1" provider-name="ATrain, Jen">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.nanscrapers" version="0.5.5" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
-        <import addon="script.module.beautifulsoup" version="3.2.1" />
-        <import addon="script.module.requests" version="2.9.1" />
-        <import addon="script.module.addon.common" version="2.0.0" />
-        <import addon="script.module.xmltodict" version="0.9.0" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.urlresolver" version="1.2.0" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Seasonal Movies</summary>
-        <description lang="en">The developer does not own any content found within this addon. All content is found across the web freely. The developer is in no way affiliated with Kodi or XBMC.</description>
-        <platform>all</platform>
-        <website>www.noobsandnerds.com</website>
-        <video_guide>xtOqLY5PJDY</video_guide>
-    </extension>
-</addon>
-	
-<addon id="plugin.video.tweedledum" name="[COLORgold]Tweedledum[/COLOR]" version="1.5.6" provider-name="mrApril, Jen
-    ">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.nanscrapers" version="0.5.5" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
-        <import addon="script.module.beautifulsoup" version="3.2.1" />
-        <import addon="script.module.requests" version="2.9.1" />
-        <import addon="script.module.addon.common" version="2.0.0" />
-        <import addon="script.module.xmltodict" version="0.9.0" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.urlresolver" version="1.2.0" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">[B][COLORcyan]Random Mumbo Jumbo[/COLOR][/B] and [B][COLORcyan]Easter Eggs[/B][/COLOR]</summary>
-        <description lang="en">The developer does not own any content found within this addon. All content is found across the web freely. The developer is in no way affiliated with Kodi or XBMC.</description>
-        <platform>all</platform>
-        <website>www.noobsandnerds.com</website>
-        <video_guide>xtOqLY5PJDY</video_guide>
-    </extension>
-</addon>
-
 <addon id="plugin.video.wwe-on-demand" name="Wrestling On Demand" version="5.05" provider-name="The Boogeyman">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -303,35 +220,6 @@
     <description lang="en">The Home Of Wrestling On Demand | Addon Steam Content From NET, A huge thank you to those who use this addon</description>
     <platform>all</platform>
   </extension>
-</addon>
-	
-<addon id="plugin.video.xtremeodyssey" name="[COLORgold]Xtreme Odyssey[/COLOR]" version="0.0.3" provider-name="loose cannon, Jen">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.nanscrapers" version="0.5.5" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
-        <import addon="script.module.beautifulsoup" version="3.2.1" />
-        <import addon="script.module.requests" version="2.9.1" />
-        <import addon="script.module.addon.common" version="2.0.0" />
-        <import addon="script.module.xmltodict" version="0.9.0" />
-        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.urlresolver" version="1.2.0" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
-    <extension point="xbmc.addon.metadata">
-      <summary lang="en">Extreme Videos</summary>
-      <summary lang="he">Extreme Videos, TV, and Documentaries</summary>
-      <description lang="en">Wildlife Survival and Xtreme Sports</description>
-      <description lang="he"></description>
-      <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-      <disclaimer lang="he">מחבר ההרחבה זה אינו מארח את התוכן שיתכן ויימצא ואין לו זיקה לאף אחד מספקי התוכן. הרחבה רק מחפשת תוכן שקיים באתרי אינטרנט. השימוש בהרחבה הוא על אחריותך בלבד!</disclaimer>
-      <platform>all</platform>
-        <website>www.noobsandnerds.com</website>
-        <video_guide>xtOqLY5PJDY</video_guide>
-    </extension>
 </addon>	
 
 <addon id="script.module.livestreamer"
