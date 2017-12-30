@@ -164,7 +164,6 @@
     </extension>
 </addon>
 
-
 <addon id="plugin.video.suprabox" name="[COLOR gold]Supra Box[/COLOR]" version="1.03" provider-name="SUPRA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
