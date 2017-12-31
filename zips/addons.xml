@@ -138,6 +138,34 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.pdsports" name="Project D" version="1.0.9" provider-name="Project D">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">PDSPORTS</summary>
+		<description lang="en">Sports replay's and more.</description>
+		<news></news>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+	</extension>
+</addon>
+
 <addon id="plugin.video.prometheus" name="Prometheus Addon" version="1.1" provider-name="RHMkodi">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -340,6 +368,28 @@
     <email></email>
     <source></source>
   </extension>
+</addon>
+
+<addon id="script.module.pyxbmct"
+   name="PyXBMCt"
+   version="1.2.0"
+   provider-name="Roman V.M.">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">PyXBMCt UI framework</summary>
+    <description lang="en">PyXBMCt is a mini-framework for simple XBMC addon UI buliding. It is similar to PyQt and provides parent windows, a number of UI controls (widgets) and a grid layout manager to place controls.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <license>GNU GPL v.3</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=174859</forum>
+    <website>http://romanvm.github.io/PyXBMCt</website>
+    <email>romanvm@yandex.ua</email>
+    <source>https://github.com/romanvm/script.module.pyxbmct</source>
+  </extension>  
 </addon>
 
 <addon id="script.module.urlresolver" name="URLResolver" version="4.0.16" provider-name="Eldorado, tknorris, tvaddons">
