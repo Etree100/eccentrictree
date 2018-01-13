@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.f50ci3ty" name="F_50ci3ty" version="1.7" provider-name="Elliot Alderson">
+<addon id="plugin.video.f50ci3ty" name="F_50ci3ty" version="1.8" provider-name="Elliot Alderson">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
