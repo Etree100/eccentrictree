@@ -1,5 +1,5 @@
-<?xml version="1.2" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.theduchess" name="The Duchess" version="1.2" provider-name="Millzy~~~midraal">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.theduchess" name="[COLORgold][B]T[/COLOR][COLORdarkorchid]he[/COLOR] [COLORgold]D[/COLOR][COLORdarkorchid]uchess[/B][/COLOR]" version="1.3" provider-name="MillzyHD~~~midraal">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -16,11 +16,11 @@
     </extension>
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
-      <summary lang="en">The Duchess's divine playlist</summary>
+      <summary lang="en">The Duchess is a cool 'ol broad with great playlists</summary>
       <description lang="en">Movies, TV Shows and other cool stuff.</description>
       <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
       <platform>all</platform>
-        <website>millzyhd@lookingglass.rocks</website>
-        <video_guide>xtOqLY5PJDY</video_guide>
+        <website></website>
+        <video_guide></video_guide>
     </extension>
 </addon>
