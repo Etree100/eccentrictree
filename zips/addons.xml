@@ -331,7 +331,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.walter" name="[B][COLORgold]Who the Fuck is Walter[/COLOR[/B]" version="1.1" provider-name="Waldo">
+<addon id="plugin.video.walter" name="[B][COLORgold]Who the Fuck is Walter[/COLOR][/B]" version="1.1" provider-name="Waldo">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
