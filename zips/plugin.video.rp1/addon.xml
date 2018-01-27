@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.rp1" name="RP 1" version="1.1" provider-name="Diggdaddy LG midraal">
+<addon id="plugin.video.rp1" name="RP 1" version="1.2" provider-name="Diggdaddy LG">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -17,7 +17,7 @@
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
       <summary lang="en">Ready Player 1 List</summary>
-      <description lang="en">list of movies referanced in RP1</description>
+      <description lang="en">list of movies referenced in Ready Player 1, the book.</description>
       <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
       <platform>all</platform>
         <website>www.noobsandnerds.com</website>
