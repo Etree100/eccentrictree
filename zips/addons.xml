@@ -115,12 +115,7 @@
     </extension>
 </addon>
 
-<<<<<<< HEAD
-	
-<addon id="plugin.video.lookingglass" name="[COLOR gold]Looking[/COLOR] [COLOR purple]Through[/COLOR] [COLORaliceblue]The[/COLOR] [COLORgreen]Glass[/COLOR]" version="1.0.3" provider-name="Red Knight/Alice">
-=======
-<addon id="plugin.video.iamabsolem" name="[COLORgold]I am Absolem[/COLOR]" version="1.2" provider-name="Absolem">
->>>>>>> 78383389c6fa89b9766cb881f1d9ff373e13e8d2
+<addon id="plugin.video.iamabsolem" name="I am Absolem" version="1.2" provider-name="Absolem">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
