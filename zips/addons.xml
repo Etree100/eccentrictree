@@ -89,7 +89,7 @@
     </extension>
 </addon>	
 	
-<addon id="plugin.video.goose" name="[COLOR gold]G[COLOR snow]oose[/COLOR]" version="1.4" provider-name="0rgoose">
+<addon id="plugin.video.goose" name="[COLOR gold]G[COLOR snow]oose[/COLOR]" version="1.5" provider-name="Midraal, 0rgoose">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -106,18 +106,21 @@
     </extension>
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
-      <summary lang="en">0rgoose</summary>
-      <description lang="en">The author of this addon does not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. This add is in no way affiliated with xmbc/kodi</description>
-      <description lang="he"></description>
-      <disclaimer lang="en"></disclaimer>
-      <disclaimer lang="he"></disclaimer>
+      <summary lang="en">Orgoose</summary>
+      <description lang="en">This addon is not connected to the official kodi devs or does it host any links or material, all this can be found freely on the internet, its not rocket science</description>
+      <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk! This addon is in no way affiliated or associated with the official kodi/xbmc</disclaimer>
       <platform>all</platform>
-        <website></website>
-        <video_guide></video_guide>
+      <website>www.noobsandnerds.com</website>
+      <video_guide>xtOqLY5PJDY</video_guide>
     </extension>
 </addon>
 
+<<<<<<< HEAD
+	
+<addon id="plugin.video.lookingglass" name="[COLOR gold]Looking[/COLOR] [COLOR purple]Through[/COLOR] [COLORaliceblue]The[/COLOR] [COLORgreen]Glass[/COLOR]" version="1.0.3" provider-name="Red Knight/Alice">
+=======
 <addon id="plugin.video.iamabsolem" name="[COLORgold]I am Absolem[/COLOR]" version="1.2" provider-name="Absolem">
+>>>>>>> 78383389c6fa89b9766cb881f1d9ff373e13e8d2
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
