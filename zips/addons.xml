@@ -115,7 +115,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.iamabsolem" name="I am Absolem" version="1.2" provider-name="Absolem">
+<addon id="plugin.video.iamabsolem" name="[COLORgold]I am Absolem[/COLOR]" version="1.2" provider-name="Absolem">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
