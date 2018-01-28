@@ -277,7 +277,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.theduchess" name="[B][COLORgold]T[/COLOR][COLORdarkorchid]he[/COLOR] [COLORgold]D[/COLOR][COLORdarkorchid]uchess[/COLOR][/B]" version="1.3" provider-name="MillzyHD~~~midraal">
+<addon id="plugin.video.theduchess" name="[COLORgold]T[/COLOR][COLORdarkorchid]he[/COLOR] [COLORgold]D[/COLOR][COLORdarkorchid]uchess[/COLOR]" version="1.4" provider-name="MillzyHD~~~midraal">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -294,10 +294,9 @@
     </extension>
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
-      <summary lang="en">The Duchess is a cool 'ol broad with great playlists</summary>
-      <description lang="en">Movies, TV Shows and other cool stuff.</description>
-      <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
-      <platform>all</platform>
+        <summary lang="en">Come in. There's some cool stuff in here! ***A big thank you to GG and the entire LG team*** </summary>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and has no affiliation with any of the content providers. This addon simply searches websites that are openly available to the public for content. Use at your own risk. Not sure? Use a VPN.</disclaimer>
+        <platform>all</platform>
         <website></website>
         <video_guide></video_guide>
     </extension>
