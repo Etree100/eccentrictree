@@ -60,7 +60,7 @@
     </extension>
 </addon>	
 	
-<addon id="plugin.video.goose" name="[COLOR gold]G[COLOR snow]oose[/COLOR]" version="1.5" provider-name="Midraal, 0rgoose">
+<addon id="plugin.video.goose" name="[COLOR gold]G[COLOR snow]oose[/COLOR]" version="1.6" provider-name="0rgoose">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -78,13 +78,13 @@
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
       <summary lang="en">Orgoose</summary>
-      <description lang="en">This addon is not connected to the official kodi devs or does it host any links or material, all this can be found freely on the internet, its not rocket science</description>
+      <description lang="en">This addon is not connected to the official kodi devs or does it host any links or material, all this can be found freely on the internet, its not rocket science.</description>
       <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk! This addon is in no way affiliated or associated with the official kodi/xbmc</disclaimer>
       <platform>all</platform>
       <website>www.noobsandnerds.com</website>
       <video_guide>xtOqLY5PJDY</video_guide>
     </extension>
-</addon>
+</addon>>
 
 <<<<<<< HEAD
 	
