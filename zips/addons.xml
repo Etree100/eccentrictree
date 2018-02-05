@@ -217,11 +217,12 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.suprabox" name="[COLOR gold]Supra Box[/COLOR]" version="1.03" provider-name="SUPRA">
+<addon id="plugin.video.suprabox" name="Supra Box" version="1.04" provider-name="SUPRA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="script.module.urlresolver"  version="2.1.2"/>
+	<import addon="script.module.resolveurl" version="5.0.0.5"/>
     <import addon="script.module.liveresolver" version="0.1.24"/>
     <import addon="script.common.plugin.cache" version="2.5.2"/>
 	<import addon="script.module.beautifulsoup" version="3.2.1"/>
