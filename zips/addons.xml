@@ -60,7 +60,7 @@
     </extension>
 </addon>	
 	
-<addon id="plugin.video.goose" name="[COLOR gold]G[COLOR snow]oose[/COLOR]" version="1.7" provider-name="0rgoose">
+<addon id="plugin.video.goose" name="[COLOR gold]G[COLOR snow]oose[/COLOR]" version="1.8" provider-name="0rgoose">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -70,7 +70,7 @@
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.xmltodict" version="0.9.0" />
         <!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <import addon="script.module.urlresolver" version="1.2.0" />
+        <import addon="script.module.resolveurl" version="5.0.0.5" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video audio</provides>
@@ -85,6 +85,7 @@
       <video_guide>xtOqLY5PJDY</video_guide>
     </extension>
 </addon>
+
 
 <addon id="plugin.video.iamabsolem" name="[COLORaqua]I am Absolem[/COLOR]" version="1.4" provider-name="Absolem">
     <requires>
