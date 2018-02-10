@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.theduchess" name="[COLORgold]T[/COLOR][COLORdarkorchid]he[/COLOR] [COLORgold]D[/COLOR][COLORdarkorchid]uchess[/COLOR]" version="1.6" provider-name="MillzyHD~~midraal">
+<addon id="plugin.video.theduchess" name="[B][COLORgold]T[/COLOR][COLORdarkorchid]he[/COLOR] [COLORgold]D[/COLOR][COLORdarkorchid]uchess[/COLOR][/B]" version="1.7" provider-name="MillzyHD~~midraal">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -12,11 +12,15 @@
         <import addon="script.module.resolveurl" version="5.0.0.5" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
+        <provides>audio video</provides>
     </extension>
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
-      <summary lang="en">Powered By Jen</summary>
-	  <platform>all</platform>
-	</extension>
+      <summary lang="en">R U Gay? Well....I am unusually cheerful</summary>
+      <description lang="en">Movies, TV Shows, Bushcraft/Outdoors & More</description>
+      <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+      <platform>all</platform>
+        <website></website>
+        <video_guide></video_guide>
+    </extension>
 </addon>
