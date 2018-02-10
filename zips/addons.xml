@@ -219,7 +219,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.suprabox" name="[COLORgold]Supra Box[COLOR]" version="1.04" provider-name="SUPRA">
+<addon id="plugin.video.suprabox" name="[COLORgold]Supra Box[/COLOR]" version="1.04" provider-name="SUPRA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
