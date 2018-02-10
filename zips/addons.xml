@@ -249,7 +249,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.theduchess" name="[B][COLORgold]T[/COLOR][COLORdarkorchid]he[/COLOR] [COLORgold]D[/COLOR][COLORdarkorchid]uchess[/COLOR][/B]" version="1.7" provider-name="MillzyHD~~midraal">
+<addon id="plugin.video.theduchess" name="[COLORgold]T[/COLOR][COLORdarkorchid]he[/COLOR] [COLORgold]D[/COLOR][COLORdarkorchid]uchess[/COLOR]" version="1.7" provider-name="MillzyHD~~midraal">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
